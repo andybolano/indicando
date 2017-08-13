@@ -1,0 +1,286 @@
+/******media queri******************/
+@media screen and (max-width:1440px){
+   p{
+   font-size:140%; 
+}
+
+#section3 p {
+    color: #000;
+    font-size: 100%;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+h2{
+    padding-left: 10px;
+   font-size:240%; 
+   line-height: 100%;
+}
+.content-equipo{
+    padding-right: 0px;
+}
+
+#section4 p{
+    font-size: 130%;
+    font-weight: 100 !important;
+    padding-left: 10px;
+}
+
+}
+@media screen and (max-width:1000px){
+    
+    /**section 1----****/
+ #logo_menu{
+    margin-top:-5px;
+    width:30%;
+}
+
+.logo {
+    margin-left: 0px;
+}
+
+#menu ul li {
+    background-image:none;
+}
+
+ /**section 2----****/
+ #decorator-section-2{
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  width: 100px;
+  height: 40px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/***section 3----*/
+ #up-flecha{
+  top: 20%;
+  left:95%;
+}
+
+.content-text-der-section-3{
+   margin-top:5%; 
+}
+
+
+#figure1{
+    width: 80px;
+    height: 80px;
+    margin-top: 70px;
+    left:10%;
+    position: absolute;
+    z-index: 1;
+}
+#figure2{
+     width: 70px;
+    height: 70px;
+    margin-top: 80px;
+    left:50%;
+    position: absolute;
+     z-index: 1;
+}
+#figure3{
+    width: 90px;
+    height: 90px;
+    margin-top: -20px;
+    left:70%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/***section 4----*/
+
+.foo{
+  top: 98%;
+
+}
+
+/***section 5 ---*/
+
+#figures-equipo{
+  top: 95%;
+
+}
+
+#section4 p{
+    font-size: 150%;
+}
+
+.content-equipo{
+    padding-right: 0px;
+    margin-top: 20px;
+}
+
+#content-contacto{
+  top: 60%;
+}
+
+}
+
+@media screen and (max-width:500px){
+#logo_home{
+  width: 280px;
+  height: 280px;
+} 
+h1{
+    font-size:300%;
+}
+
+.fp-section {
+    border-right:0px solid #FFF;
+    border-left:0px solid #FFF;
+}
+#fp-nav{
+    display: none;
+}
+p{
+   font-size:100%; 
+    line-height:16px;
+    letter-spacing:0px;
+}
+
+.content-title{
+    margin-top:22%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    
+}
+#number{
+    width: 80px;
+    height:80px;
+    position: absolute;
+    left: -10px;
+    top:40px;
+}
+
+  /*section 1---------------*/
+#left_home{
+  width: 24px;
+  left: 95%;
+}
+  /*section 2---------------*/
+#img-section-2{
+    margin-left:-20px;
+    margin-top: 0px;
+}
+#decorator-section-2{
+  top: 95%;
+  left:20%;
+  width:80px;
+}
+/*section 3---------------*/
+
+.content-text-izq-section3{
+    margin-left: 0%;
+    font-size:120%;
+}
+
+#up-flecha{
+  height: 60px;
+}
+
+#figure1{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    left:5%;
+}
+#figure2{
+     width: 40px;
+    height: 40px;
+    margin-top: 80px;
+    left:50%;
+}
+#figure3{
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    left:80%;
+}
+/*section 4---------------*/
+
+.content-productos-title{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    padding-left: 0;
+}
+.content-productos{
+    padding-left: 0px;
+    margin-top: 10%;
+}
+.img-mobile{
+    width:80px;
+}
+.right{
+  top: 85%;
+  left: 90%;
+  width: 70px;
+  height: 70px;
+}
+/*section 5---------------*/
+.content-father-equipo{
+    padding-left: 0px;
+}
+.content-equipo{
+    padding-right: 0px;
+}
+#figures-equipo{
+  top: 95%;
+  left: 60%;
+}
+.figure-equipo{
+    width: 50px;
+    height: 50px;
+}
+h2{
+    padding-left: 10px;
+   font-size:180%; 
+   line-height: 100%;
+}
+.content-equipo{
+    padding-right: 0px;
+}
+
+#section4 p{
+    font-size: 105%;
+    font-weight: 100 !important;
+    padding-left: 10px;
+}
+.title-equipo{
+    margin-top: 18%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+/*section 6--------------*/
+
+h5{
+    font-family: 'DIN-regulate';
+    font-size:24px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content-contacto{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 240px;
+  height: 240px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.ico-contact{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+}
