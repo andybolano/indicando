@@ -17,7 +17,8 @@ header{
     font:18px verdana;
     color:#000;
     float:left;
-    width:15%
+    width:15%;
+    margin-left:25px;    
 }
 .logo a{
     color:#000;
@@ -26,6 +27,13 @@ nav{
     position:relative;
     width:980px;
     margin:0 auto;
+}
+#menu ul{
+    margin-top: 0;
+    padding: 0 29px 0 29px;
+    text-align: center;
+    display: inline-block; 
+    
 }
 #menu,#menu ul,#menu ul li,#menu ul li a,#menu #head-mobile
 {
@@ -48,21 +56,29 @@ nav{
     height:0
 }
 #menu #head-mobile{display:none}
-#menu{font-family:sans-serif;background:transparent}
-#menu > ul > li{float:left}
+#menu{
+    font-family:sans-serif;
+    background:transparent;
+}
+#menu > ul > li{
+       display: inline-block;
+          padding:17px;
+}
 #menu > ul > li > a
 {
-    padding:17px;
     font-size:12px;
     letter-spacing:1px;
     text-decoration:none;
+    padding-bottom: 4px;
     color:#000;
-    font-weight:700;
+    font-weight:300;
 }
 #menu > ul > li:hover > a,#menu ul li.active a
 {
-       color:#c3c3c3;
+       color:#000;
+       border-bottom: 1px solid #000;
 }
+/*
 #menu > ul > li:hover,#menu ul li.active:hover,#menu ul li.active,#menu ul li.has-sub.active:hover
 {
     background:#FFF !important;
@@ -70,7 +86,7 @@ nav{
     -webkit-transition:background .3s ease;
     -ms-transition:background .3s ease;
     transition:background .3s ease;
- }
+ }*/
 #menu > ul > li.has-sub > a{
     padding-right:30px
 }

@@ -1,10 +1,249 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 11/08/2017, 08:41:58 AM
-    Author     : User
-*/
+@font-face{
+    font-family: "DIN-light";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/DINLight.ttf) format("truetype");
+}
+@font-face{
+    font-family: "DIN-regulate";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/DINRegularAlternate.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Garamond";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/GaramondPremrPro-Capt.otf) format("opentype");
+}
+@font-face{
+    font-family: "Garamond-2";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/GaramondPremrPro-Capt2.otf) format("opentype");
+}
+@font-face{
+    font-family: "Garamond-3";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/GaramondPremrPro-Capt3.otf) format("opentype");
+}
+@font-face{
+    font-family: "Heveltica";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/HelveticaNeueLTStd-BdEx.otf) format("opentype");
+}
+html, body {
+  height: 100%;
+  font-size: 100%;
+}
 
+#logo_home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 380px;
+  height: 380px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#logo_menu{
+    margin-top:5px;
+    width:70%;
+}
+
+#menu > ul > li > a{
+    font-family: 'DIN-regulate';
+    font-size: 14px;
+}
+
+#menu ul li:first-child {
+    background: transparent;
+    /*padding: 0 0 0 10px;*/
+    border: 0;
+}
+
+#menu ul li {
+    background-image: url(../images/separator.svg);
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+    background-size: 4px 8px;
+}
+
+#menu > ul > li > a
+{
+    padding-left:3px;
+}
+
+#number{
+    width: 130px;
+    height:130px;
+    position: absolute;
+    left: -10px;
+    top:80px;
+}
+
+.content-title{
+    margin-top:22%;
+    margin-left: 15%;
+}
+h1{
+    font-size:500%;
+    line-height:100%;
+
+}
+
+.color-blue{
+    color:#92C1BE;
+}
+
+p{
+    color:#FFF;
+    font-family: 'Garamond';
+    font-size: 20px;
+    line-height:30px;
+    letter-spacing:1.5px;
+    text-align: justify;
+    z-index: 2;
+}
+
+h3{
+      font-family: 'Garamond';
+      font-size:20px;
+      font-weight: 700;
+      letter-spacing:1.5px;
+      margin-bottom: 5px;
+      margin-top:5px;
+}
+
+/*section2----------------*/
+#img-section-2{
+    padding: 0;
+    margin: 0;
+    margin-left:-20px;
+    margin-top: -80px;
+    width:100%;
+}
+#decorator-section-2{
+    position: absolute;
+    bottom:-90px;
+    left: 10px;
+    width: 60px;
+}
+
+/*section3-------------*/
+
+.content-text-izq-section3{
+    color:#FFF;
+    margin-left: 15%;
+     font-family: 'DIN-regulate';
+     font-size:22px;
+}
+
+.content-up{
+    margin-top: 110px;
+    width: 100%;
+    text-align: right;
+     margin-bottom: 50px;
+}
+#up-flecha{
+    height: 100px;
+}
+
+#figure1{
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    left:10%;
+    position: absolute;
+}
+#figure2{
+     width: 70px;
+    height: 70px;
+    margin-top: 180px;
+    left:50%;
+    position: absolute;
+}
+#figure3{
+    width: 90px;
+    height: 90px;
+    margin-top: -20px;
+    left:60%;
+    position: absolute;
+    z-index: 1;
+}
+
+/*--section4--------*/
+.content-productos-title{
+    padding-left: 100px;
+}
+.content-productos{
+    padding-left: 50px;
+}
+.title-productos{
+    margin-top: 100px;
+}
+
+#section3 p{
+    color:#000;
+    font-size: 16px;
+    line-height:16px;
+    letter-spacing:0;
+    text-align: left;
+}
+
+.foo{
+    position: absolute;
+  top: 95%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.right{
+   position: absolute;
+  top: 85%;
+  left: 95%;
+  width: 70px;
+  height: 70px;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+}
+
+/*****section5*****/
+.title-equipo{
+    margin-top: 10%;
+}
+
+h2{
+   font-size:250%; 
+   line-height: 100%;
+}
+.content-equipo{
+    padding-right: 20px;
+}
+
+#section4 p{
+    font-size: 18px;
+    font-weight: 100 !important;
+    font-family: 'Garamond-3';
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: left;
+}
+#figures-equipo{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 400px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+  z-index: 1;  
+}
+.figure-equipo{
+    width: 80px;
+    height: 80px;
+}
