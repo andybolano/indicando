@@ -227,8 +227,13 @@ p{
 .content-father-equipo{
     padding-left: 0px;
 }
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .content-equipo{
     padding-right: 0px;
+    margin-top: 10px;
 }
 #figures-equipo{
   top: 95%;
@@ -240,15 +245,13 @@ p{
 }
 h2{
     padding-left: 10px;
-   font-size:180%; 
+   font-size:140%; 
    line-height: 100%;
 }
-.content-equipo{
-    padding-right: 0px;
-}
+
 
 #section4 p{
-    font-size: 105%;
+    font-size: 100%;
     font-weight: 100 !important;
     padding-left: 10px;
 }
@@ -257,12 +260,13 @@ h2{
     width: 80%;
     margin-left: 10%;
     text-align: center;
+    padding: 0;
 }
 /*section 6--------------*/
 
 h5{
     font-family: 'DIN-regulate';
-    font-size:24px;
+    font-size:22px;
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -282,5 +286,9 @@ h5{
     width: 40px;
     height: 40px;
     margin-right: 20px;
+}
+
+#section5 h1{
+    font-size:240%;
 }
 }

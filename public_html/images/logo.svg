@@ -3,10 +3,16 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 900 900" style="enable-background:new 0 0 900 900;" xml:space="preserve">
 <style type="text/css">
+    
+    	
+    
 	.st0{opacity:0.5;}
 	.st1{fill:#9BB9B7;}
 	.st2{fill:#BD4539;}
 	.st3{fill:#030104;}
+  
+    
+
 </style>
 <g id="XMLID_42_">
 	<g id="XMLID_150_" class="st0">
@@ -161,7 +167,7 @@
 	</g>
 	<g id="XMLID_65_">
 		<g id="XMLID_66_">
-			<path id="XMLID_67_" class="st2" d="M788.8,894.8l-68.5-68.5V763l68.5,68.6l68.5-68.6v63.2L788.8,894.8z M725.4,824.1l63.5,63.5
+			<path id="XMLID_67_" class="st2 XMLID_67_" d="M788.8,894.8l-68.5-68.5V763l68.5,68.6l68.5-68.6v63.2L788.8,894.8z M725.4,824.1l63.5,63.5
 				l63.5-63.5v-48.9l-63.5,63.5l-63.5-63.5V824.1z"/>
 		</g>
 	</g>

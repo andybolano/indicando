@@ -6,12 +6,31 @@
 	.st0{opacity:0.66;}
 	.st1{fill:none;stroke:#BD4539;stroke-width:2;stroke-miterlimit:10;}
 	.st2{fill:#BD4539;}
+    
+    .animate-svg{
+            stroke-dasharray:1000;
+            stroke-dashoffset:1000;
+            -webkit-animation: dash 3s linear forwards;
+            -o-animation: dash 3s linear forwards;
+            -moz-animation:dash 3s linear forwards;
+            animation:dash 3s linear forwards;
+        }
+        
+        @-webkit-keyframes dash{
+            
+            to{
+                stroke-dashoffset:0;
+            }
+        }
+    
+       
+    
 </style>
 <g id="XMLID_1_" class="st0">
 	<g id="XMLID_12_">
 		<line id="XMLID_15_" class="st1" x1="2" y1="92.7" x2="92.4" y2="2.4"/>
 		<g id="XMLID_13_">
-			<polygon id="XMLID_14_" class="st2" points="92,7.6 92,2.8 87.2,2.8 89.2,0.7 94,0.7 94,5.5 			"/>
+			<polygon id="XMLID_14_" class="st2" points="92,7.6 92,2.8 87.2,2.8 89.2,0.7 94,0.7 94,5.5"/>
 		</g>
 	</g>
 </g>
