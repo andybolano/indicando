@@ -38,7 +38,15 @@ html, body {
   height: 100%;
   font-size: 100%;
 }
-
+#loading{
+    background-color: #BD4539;
+    position: fixed; 
+    z-index: 9000;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+}
 #logo_home{
   position: absolute;
   top: 50%;

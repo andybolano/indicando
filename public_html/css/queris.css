@@ -122,6 +122,11 @@ h2{
 }
 
 @media screen and (max-width:500px){
+    
+     #logo_menu{
+    margin-top:0px;
+    width:40%;
+}
 #logo_home{
   width: 280px;
   height: 280px;

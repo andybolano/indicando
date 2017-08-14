@@ -10,6 +10,7 @@
                         });
                     });
 	$(document).ready(function() {
+            $('#loading').hide();
              new WOW().init();
             var ancho = $(window).width();
             
