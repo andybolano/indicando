@@ -170,6 +170,9 @@ p{
 }
   /*section 2---------------*/
 #img-section-2{
+    display: none;
+}
+#img-section-min-2{
     margin-left:-20px;
     margin-top: 0px;
 }
