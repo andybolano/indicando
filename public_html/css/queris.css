@@ -249,7 +249,9 @@ h2{
    line-height: 100%;
 }
 
-
+#figures-equipo{
+        display :none;
+    }
 #section4 p{
     font-size: 100%;
     font-weight: 100 !important;
@@ -292,3 +294,4 @@ h5{
     font-size:240%;
 }
 }
+
