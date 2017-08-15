@@ -30,6 +30,7 @@ h2{
 }
 @media screen and (max-width:1000px){
     
+   
     /**section 1----****/
  #logo_menu{
     margin-top:-5px;
@@ -120,7 +121,6 @@ h2{
 }
 
 }
-
 @media screen and (max-width:500px){
     
      #logo_menu{
@@ -173,6 +173,7 @@ p{
     display: none;
 }
 #img-section-min-2{
+    display: block;
     margin-left:-20px;
     margin-top: 0px;
 }
@@ -183,8 +184,9 @@ p{
 }
 /*section 3---------------*/
 
-.content-text-izq-section3{
+.content-text-izq-section3 {
     margin-left: 0%;
+    margin-top: 0;
     font-size:120%;
 }
 
@@ -217,6 +219,7 @@ p{
     margin-left: 10%;
     text-align: center;
     padding-left: 0;
+    margin-top:10%;
 }
 .content-productos{
     padding-left: 0px;
@@ -300,6 +303,25 @@ h5{
 
 #section5 h1{
     font-size:240%;
+}
+}
+
+@media screen and (min-height:900px) and  (min-width: 1000px){
+    /****section 3***/
+  .content-text-der-section-3{
+    margin-top: 60%;
+    }
+    
+   .title-productos{
+        margin-top: 10%;
+    }
+    
+    .content-title{
+        margin-top:20%;
+    }
+    
+    .title-equipo {
+    margin-top: 15%;
 }
 }
 
